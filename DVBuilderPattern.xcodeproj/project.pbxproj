@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6374A38B1405DF64004AF3F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6374A38A1405DF64004AF3F3 /* UIKit.framework */; };
+		6374A38D1405DF64004AF3F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6374A38C1405DF64004AF3F3 /* Foundation.framework */; };
+		6374A38F1405DF64004AF3F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6374A38E1405DF64004AF3F3 /* CoreGraphics.framework */; };
+		6374A3951405DF64004AF3F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6374A3931405DF64004AF3F3 /* InfoPlist.strings */; };
+		6374A3971405DF64004AF3F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3961405DF64004AF3F3 /* main.m */; };
+		6374A39B1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A39A1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m */; };
+		6374A39E1405DF64004AF3F3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6374A39C1405DF64004AF3F3 /* MainWindow.xib */; };
+		6374A3A11405DF64004AF3F3 /* DVBuilderPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */; };
+		6374A3A41405DF64004AF3F3 /* DVBuilderPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6374A3A21405DF64004AF3F3 /* DVBuilderPatternViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6374A3861405DF64004AF3F3 /* DVBuilderPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVBuilderPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6374A38A1405DF64004AF3F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6374A38C1405DF64004AF3F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6374A38E1405DF64004AF3F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6374A3921405DF64004AF3F3 /* DVBuilderPattern-Info.plist */ = {isa = PBXFileReference; path = "DVBuilderPattern-Info.plist"; sourceTree = "<group>"; };
+		6374A3941405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6374A3961405DF64004AF3F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6374A3981405DF64004AF3F3 /* DVBuilderPattern-Prefix.pch */ = {isa = PBXFileReference; path = "DVBuilderPattern-Prefix.pch"; sourceTree = "<group>"; };
+		6374A3991405DF64004AF3F3 /* DVBuilderPatternAppDelegate.h */ = {isa = PBXFileReference; path = DVBuilderPatternAppDelegate.h; sourceTree = "<group>"; };
+		6374A39A1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVBuilderPatternAppDelegate.m; sourceTree = "<group>"; };
+		6374A39D1405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6374A39F1405DF64004AF3F3 /* DVBuilderPatternViewController.h */ = {isa = PBXFileReference; path = DVBuilderPatternViewController.h; sourceTree = "<group>"; };
+		6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVBuilderPatternViewController.m; sourceTree = "<group>"; };
+		6374A3A31405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVBuilderPatternViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6374A3831405DF64004AF3F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6374A38B1405DF64004AF3F3 /* UIKit.framework in Frameworks */,
+				6374A38D1405DF64004AF3F3 /* Foundation.framework in Frameworks */,
+				6374A38F1405DF64004AF3F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6374A37B1405DF64004AF3F3 = {
+			isa = PBXGroup;
+			children = (
+				6374A3901405DF64004AF3F3 /* DVBuilderPattern */,
+				6374A3891405DF64004AF3F3 /* Frameworks */,
+				6374A3871405DF64004AF3F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6374A3871405DF64004AF3F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6374A3861405DF64004AF3F3 /* DVBuilderPattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6374A3891405DF64004AF3F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6374A38A1405DF64004AF3F3 /* UIKit.framework */,
+				6374A38C1405DF64004AF3F3 /* Foundation.framework */,
+				6374A38E1405DF64004AF3F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6374A3901405DF64004AF3F3 /* DVBuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				6374A3991405DF64004AF3F3 /* DVBuilderPatternAppDelegate.h */,
+				6374A39A1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m */,
+				6374A39C1405DF64004AF3F3 /* MainWindow.xib */,
+				6374A39F1405DF64004AF3F3 /* DVBuilderPatternViewController.h */,
+				6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */,
+				6374A3A21405DF64004AF3F3 /* DVBuilderPatternViewController.xib */,
+				6374A3911405DF64004AF3F3 /* Supporting Files */,
+			);
+			path = DVBuilderPattern;
+			sourceTree = "<group>";
+		};
+		6374A3911405DF64004AF3F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6374A3921405DF64004AF3F3 /* DVBuilderPattern-Info.plist */,
+				6374A3931405DF64004AF3F3 /* InfoPlist.strings */,
+				6374A3961405DF64004AF3F3 /* main.m */,
+				6374A3981405DF64004AF3F3 /* DVBuilderPattern-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6374A3851405DF64004AF3F3 /* DVBuilderPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6374A3A71405DF64004AF3F3 /* Build configuration list for PBXNativeTarget "DVBuilderPattern" */;
+			buildPhases = (
+				6374A3821405DF64004AF3F3 /* Sources */,
+				6374A3831405DF64004AF3F3 /* Frameworks */,
+				6374A3841405DF64004AF3F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVBuilderPattern;
+			productName = DVBuilderPattern;
+			productReference = 6374A3861405DF64004AF3F3 /* DVBuilderPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6374A37D1405DF64004AF3F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "St George Group.";
+			};
+			buildConfigurationList = 6374A3801405DF64004AF3F3 /* Build configuration list for PBXProject "DVBuilderPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6374A37B1405DF64004AF3F3;
+			productRefGroup = 6374A3871405DF64004AF3F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6374A3851405DF64004AF3F3 /* DVBuilderPattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6374A3841405DF64004AF3F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6374A3951405DF64004AF3F3 /* InfoPlist.strings in Resources */,
+				6374A39E1405DF64004AF3F3 /* MainWindow.xib in Resources */,
+				6374A3A41405DF64004AF3F3 /* DVBuilderPatternViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6374A3821405DF64004AF3F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6374A3971405DF64004AF3F3 /* main.m in Sources */,
+				6374A39B1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m in Sources */,
+				6374A3A11405DF64004AF3F3 /* DVBuilderPatternViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6374A3931405DF64004AF3F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6374A3941405DF64004AF3F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6374A39C1405DF64004AF3F3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6374A39D1405DF64004AF3F3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6374A3A21405DF64004AF3F3 /* DVBuilderPatternViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6374A3A31405DF64004AF3F3 /* en */,
+			);
+			name = DVBuilderPatternViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6374A3A51405DF64004AF3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6374A3A61405DF64004AF3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6374A3A81405DF64004AF3F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVBuilderPattern/DVBuilderPattern-Prefix.pch";
+				INFOPLIST_FILE = "DVBuilderPattern/DVBuilderPattern-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6374A3A91405DF64004AF3F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DVBuilderPattern/DVBuilderPattern-Prefix.pch";
+				INFOPLIST_FILE = "DVBuilderPattern/DVBuilderPattern-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6374A3801405DF64004AF3F3 /* Build configuration list for PBXProject "DVBuilderPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6374A3A51405DF64004AF3F3 /* Debug */,
+				6374A3A61405DF64004AF3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6374A3A71405DF64004AF3F3 /* Build configuration list for PBXNativeTarget "DVBuilderPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6374A3A81405DF64004AF3F3 /* Debug */,
+				6374A3A91405DF64004AF3F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6374A37D1405DF64004AF3F3 /* Project object */;
+}
