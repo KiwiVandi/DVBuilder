@@ -23,14 +23,14 @@
 		6374A38A1405DF64004AF3F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6374A38C1405DF64004AF3F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6374A38E1405DF64004AF3F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6374A3921405DF64004AF3F3 /* DVBuilderPattern-Info.plist */ = {isa = PBXFileReference; path = "DVBuilderPattern-Info.plist"; sourceTree = "<group>"; };
+		6374A3921405DF64004AF3F3 /* DVBuilderPattern-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DVBuilderPattern-Info.plist"; sourceTree = "<group>"; };
 		6374A3941405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6374A3961405DF64004AF3F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6374A3981405DF64004AF3F3 /* DVBuilderPattern-Prefix.pch */ = {isa = PBXFileReference; path = "DVBuilderPattern-Prefix.pch"; sourceTree = "<group>"; };
-		6374A3991405DF64004AF3F3 /* DVBuilderPatternAppDelegate.h */ = {isa = PBXFileReference; path = DVBuilderPatternAppDelegate.h; sourceTree = "<group>"; };
+		6374A3981405DF64004AF3F3 /* DVBuilderPattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVBuilderPattern-Prefix.pch"; sourceTree = "<group>"; };
+		6374A3991405DF64004AF3F3 /* DVBuilderPatternAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVBuilderPatternAppDelegate.h; sourceTree = "<group>"; };
 		6374A39A1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVBuilderPatternAppDelegate.m; sourceTree = "<group>"; };
 		6374A39D1405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		6374A39F1405DF64004AF3F3 /* DVBuilderPatternViewController.h */ = {isa = PBXFileReference; path = DVBuilderPatternViewController.h; sourceTree = "<group>"; };
+		6374A39F1405DF64004AF3F3 /* DVBuilderPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVBuilderPatternViewController.h; sourceTree = "<group>"; };
 		6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVBuilderPatternViewController.m; sourceTree = "<group>"; };
 		6374A3A31405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVBuilderPatternViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
