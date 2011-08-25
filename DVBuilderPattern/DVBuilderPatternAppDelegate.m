@@ -10,6 +10,12 @@
 
 #import "DVBuilderPatternViewController.h"
 
+#import "VehicleBuilder.h"
+#import "ScooterBuilder.h"
+#import "CarBuilder.h"
+#import "MotorCycleBuilder.h"
+#import "Shop.h"
+
 @implementation DVBuilderPatternAppDelegate
 
 @synthesize window = _window;
@@ -19,8 +25,27 @@
 {
     // Override point for customization after application launch.
      
+    VehicleBuilder *builder;
+    
+    Shop *shop = [[Shop alloc] init];
+    
+    builder = [[ScooterBuilder alloc] init];
+    [shop construct: builder];
+    [builder.vehicle show];
+    
+    builder = [[CarBuilder alloc] init];
+    [shop construct: builder];
+    [builder.vehicle show];
+    
+    builder = [[MotorCycleBuilder alloc] init];
+    [shop construct: builder];
+    [builder.vehicle show];
+    
+    NSLog(@"End of Building.");
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

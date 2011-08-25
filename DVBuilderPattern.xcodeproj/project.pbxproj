@@ -16,6 +16,12 @@
 		6374A39E1405DF64004AF3F3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6374A39C1405DF64004AF3F3 /* MainWindow.xib */; };
 		6374A3A11405DF64004AF3F3 /* DVBuilderPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */; };
 		6374A3A41405DF64004AF3F3 /* DVBuilderPatternViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6374A3A21405DF64004AF3F3 /* DVBuilderPatternViewController.xib */; };
+		6374A3AC1405F568004AF3F3 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3AB1405F568004AF3F3 /* Shop.m */; };
+		6374A3AF1405F620004AF3F3 /* VehicleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3AE1405F620004AF3F3 /* VehicleBuilder.m */; };
+		6374A3B21405F7F0004AF3F3 /* MotorCycleBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3B11405F7F0004AF3F3 /* MotorCycleBuilder.m */; };
+		6374A3B51405FA74004AF3F3 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3B41405FA74004AF3F3 /* Vehicle.m */; };
+		6374A3BC1406026C004AF3F3 /* CarBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3BB1406026C004AF3F3 /* CarBuilder.m */; };
+		6374A3C014060300004AF3F3 /* ScooterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6374A3BF14060300004AF3F3 /* ScooterBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +39,18 @@
 		6374A39F1405DF64004AF3F3 /* DVBuilderPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVBuilderPatternViewController.h; sourceTree = "<group>"; };
 		6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVBuilderPatternViewController.m; sourceTree = "<group>"; };
 		6374A3A31405DF64004AF3F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DVBuilderPatternViewController.xib; sourceTree = "<group>"; };
+		6374A3AA1405F568004AF3F3 /* Shop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shop.h; sourceTree = "<group>"; };
+		6374A3AB1405F568004AF3F3 /* Shop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shop.m; sourceTree = "<group>"; };
+		6374A3AD1405F620004AF3F3 /* VehicleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleBuilder.h; sourceTree = "<group>"; };
+		6374A3AE1405F620004AF3F3 /* VehicleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleBuilder.m; sourceTree = "<group>"; };
+		6374A3B01405F7F0004AF3F3 /* MotorCycleBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorCycleBuilder.h; sourceTree = "<group>"; };
+		6374A3B11405F7F0004AF3F3 /* MotorCycleBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotorCycleBuilder.m; sourceTree = "<group>"; };
+		6374A3B31405FA74004AF3F3 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		6374A3B41405FA74004AF3F3 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		6374A3BA1406026B004AF3F3 /* CarBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarBuilder.h; sourceTree = "<group>"; };
+		6374A3BB1406026C004AF3F3 /* CarBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarBuilder.m; sourceTree = "<group>"; };
+		6374A3BE14060300004AF3F3 /* ScooterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScooterBuilder.h; sourceTree = "<group>"; };
+		6374A3BF14060300004AF3F3 /* ScooterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScooterBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,18 @@
 				6374A3A01405DF64004AF3F3 /* DVBuilderPatternViewController.m */,
 				6374A3A21405DF64004AF3F3 /* DVBuilderPatternViewController.xib */,
 				6374A3911405DF64004AF3F3 /* Supporting Files */,
+				6374A3AA1405F568004AF3F3 /* Shop.h */,
+				6374A3AB1405F568004AF3F3 /* Shop.m */,
+				6374A3AD1405F620004AF3F3 /* VehicleBuilder.h */,
+				6374A3AE1405F620004AF3F3 /* VehicleBuilder.m */,
+				6374A3B01405F7F0004AF3F3 /* MotorCycleBuilder.h */,
+				6374A3B11405F7F0004AF3F3 /* MotorCycleBuilder.m */,
+				6374A3B31405FA74004AF3F3 /* Vehicle.h */,
+				6374A3B41405FA74004AF3F3 /* Vehicle.m */,
+				6374A3BA1406026B004AF3F3 /* CarBuilder.h */,
+				6374A3BB1406026C004AF3F3 /* CarBuilder.m */,
+				6374A3BE14060300004AF3F3 /* ScooterBuilder.h */,
+				6374A3BF14060300004AF3F3 /* ScooterBuilder.m */,
 			);
 			path = DVBuilderPattern;
 			sourceTree = "<group>";
@@ -167,6 +197,12 @@
 				6374A3971405DF64004AF3F3 /* main.m in Sources */,
 				6374A39B1405DF64004AF3F3 /* DVBuilderPatternAppDelegate.m in Sources */,
 				6374A3A11405DF64004AF3F3 /* DVBuilderPatternViewController.m in Sources */,
+				6374A3AC1405F568004AF3F3 /* Shop.m in Sources */,
+				6374A3AF1405F620004AF3F3 /* VehicleBuilder.m in Sources */,
+				6374A3B21405F7F0004AF3F3 /* MotorCycleBuilder.m in Sources */,
+				6374A3B51405FA74004AF3F3 /* Vehicle.m in Sources */,
+				6374A3BC1406026C004AF3F3 /* CarBuilder.m in Sources */,
+				6374A3C014060300004AF3F3 /* ScooterBuilder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +320,7 @@
 				6374A3A91405DF64004AF3F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
